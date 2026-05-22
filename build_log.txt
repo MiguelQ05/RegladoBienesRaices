@@ -1,0 +1,21 @@
+
+> reglado-bienes-raices@1.0.0 build
+> vite build
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 7 modules transformed.
+[31mx[39m Build failed in 123ms
+[31merror during build:
+[31m[vite:vue] [plugin vite:vue] src/views/LandingPage.vue: Single file component can contain only one <script setup> element[31m
+file: [36mC:/reglado-bienes-raices/src/views/LandingPage.vue[31m
+SyntaxError: [plugin vite:vue] src/views/LandingPage.vue: Single file component can contain only one <script setup> element
+    at createDuplicateBlockError (C:\reglado-bienes-raices\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1954:15)
+    at C:\reglado-bienes-raices\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1874:21
+    at Array.forEach (<anonymous>)
+    at Object.parse$1 [as parse] (C:\reglado-bienes-raices\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1832:16)
+    at createDescriptor (C:\reglado-bienes-raices\node_modules\@vitejs\plugin-vue\dist\index.cjs:84:43)
+    at transformMain (C:\reglado-bienes-raices\node_modules\@vitejs\plugin-vue\dist\index.cjs:2434:34)
+    at Object.transform (C:\reglado-bienes-raices\node_modules\@vitejs\plugin-vue\dist\index.cjs:3066:16)
+    at file:///C:/reglado-bienes-raices/node_modules/rollup/dist/es/shared/node-entry.js:22626:40[39m
